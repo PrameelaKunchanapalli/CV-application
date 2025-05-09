@@ -1,6 +1,6 @@
 // src/components/Experience.tsx
 import React, { useState } from 'react';
-import '../styles/Experience.css';
+import '../styles/shared.css';
 
 const Experience: React.FC = () => {
   const [editMode, setEditMode] = useState(true);

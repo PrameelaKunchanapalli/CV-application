@@ -1,6 +1,6 @@
 // src/components/GeneralInfo.tsx
 import React, { useState } from 'react';
-import '../styles/GeneralInfo.css';
+import '../styles/shared.css';
 
 const GeneralInfo: React.FC = () => {
   const [isEditing, setIsEditing] = useState(true);

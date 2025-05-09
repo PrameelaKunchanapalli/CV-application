@@ -1,6 +1,6 @@
 // src/components/Education.tsx
 import React, { useState } from 'react';
-import '../styles/Education.css';
+import '../styles/shared.css';
 
 const Education: React.FC = () => {
   const [editMode, setEditMode] = useState(true);
